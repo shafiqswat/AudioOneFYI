@@ -1,1 +1,56 @@
 /** @format */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=Pompiere&family=Roboto:wght@400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-image: url(./img/230919-russel-brand-mb-0831-921118.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+#navbar-container li a {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+.now {
+  color: grey !important;
+  cursor: not-allowed;
+}
+.login a {
+  color: grey !important;
+}
+.discover {
+  color: white !important;
+  margin-right: 85px !important;
+}
+.search {
+  background-image: url(./img/search.png);
+  background-repeat: no-repeat;
+  background-position: top 50px;
+  height: 45px;
+  background-position: left 10px center;
+  background-color: rgba(41, 42, 41, 0.5) !important;
+  width: 335px !important;
+  border: none !important;
+  color: black !important;
+  margin-right: 100px;
+}
+.search:focus {
+  box-shadow: none !important;
+}
+.dark {
+  margin-right: 20px;
+}
+.dark img {
+  width: 38px;
+  vertical-align: text-top;
+}
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
