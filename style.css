@@ -5,6 +5,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+.logo {
+  width: 200px;
+}
 .header {
   background-image: url(./img/230919-russel-brand-mb-0831-921118.jpg);
   width: 100%;
@@ -53,5 +56,72 @@
 .main-container {
   display: flex;
   justify-content: space-between;
-  max-width: 100%;
+}
+.btns-container {
+  white-space: nowrap;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+.btns-container::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.btns-container a {
+  background-color: #fff;
+  margin-right: 10px;
+  border-radius: 10px;
+  opacity: 0.04;
+}
+.btns-container a:focus {
+  box-shadow: none !important;
+}
+@media only screen and (max-width: 1360px) {
+  #navbar-container li a,
+  .dark {
+    font-size: 19px;
+    margin-right: 13px !important;
+  }
+  .search,
+  .discover {
+    margin-right: 65px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #navbar-container li a {
+    font-size: 17px;
+    margin-right: 10px !important;
+  }
+  .search {
+    margin-right: 10px;
+    width: 280px !important;
+  }
+  .discover {
+    margin-right: 25px;
+  }
+  .dark {
+    margin-right: 0;
+    display: none;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .search {
+    width: 220px !important;
+  }
+  #navbar-container li a {
+    font-size: 14px;
+  }
+  .discover {
+    margin-right: 15px;
+  }
+  .logo {
+    width: 120px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .search {
+    width: 190px !important;
+  }
+  .discover {
+    margin-right: 10px;
+  }
 }
