@@ -13,7 +13,10 @@ body::-webkit-scrollbar {
 .logo {
   width: 200px;
 }
-
+#changer {
+  height: 100%;
+  width: 100%;
+}
 .main-section {
   position: fixed;
   top: 0;
@@ -127,13 +130,14 @@ body::-webkit-scrollbar {
 }
 /*  */
 .news {
-  padding: 90vh 20px 0;
+  margin-top: 36rem;
 }
 .stations {
   color: rgb(128, 128, 128);
   font-size: 24px;
   font-family: sans-serif;
   font-weight: 600;
+  /* padding-left: 20px; */
 }
 .business {
   width: 175px;
@@ -172,6 +176,89 @@ body::-webkit-scrollbar {
   font-size: 13px;
   font-weight: 700;
   z-index: 1;
+}
+.crime-part {
+  display: flex;
+  overflow-x: auto;
+}
+.crime-part::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.crime-container {
+  position: relative;
+  width: 320px;
+  height: 332px;
+  cursor: pointer;
+}
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 95%;
+  height: 90%;
+  border-radius: 13px;
+  background-color: rgba(0, 0, 0, 0.4);
+  mix-blend-mode: multiply;
+}
+.crime-container img {
+  border-radius: 13px;
+  max-width: 300px;
+}
+.hover-container {
+  background-color: #003e60;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+  border-radius: 13px;
+  display: none;
+}
+
+.pl-img {
+  position: absolute;
+  transform: translate(24%, 21%);
+}
+.us-para {
+  font-family: sans-serif;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 6rem;
+  margin-left: 1rem;
+}
+.what-para {
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+.hour-para {
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.info-container {
+  margin-left: 1rem;
+  margin-top: 2.5rem;
+  display: flex;
+}
+
+.info-img {
+  filter: invert(84%) sepia(94%) saturate(0%) hue-rotate(349deg)
+    brightness(108%) contrast(107%) !important;
+}
+.message-img {
+  opacity: 0.3;
+}
+.crime-container:hover .hover-container {
+  display: block;
 }
 @media only screen and (max-width: 1360px) {
   #navbar-container li a,
