@@ -60,6 +60,7 @@ body::-webkit-scrollbar {
   color: black !important;
   margin-right: 100px;
 }
+
 .search:focus {
   box-shadow: none !important;
 }
@@ -84,7 +85,7 @@ body::-webkit-scrollbar {
   height: 0;
 }
 .btns-container a {
-  background-color: #fff;
+  background-color: #ebebeb;
   margin-right: 10px;
   border-radius: 10px;
   /* opacity: 0.04; */
@@ -148,6 +149,7 @@ body::-webkit-scrollbar {
 .img-container {
   position: relative;
   background-color: #00000050;
+  border-radius: 13px;
 }
 
 .pl-btn {
@@ -196,13 +198,12 @@ body::-webkit-scrollbar {
   top: 0;
   left: 0;
   width: 95%;
-  height: 90%;
+  height: 91%;
   border-radius: 13px;
   background-color: rgba(0, 0, 0, 0.4);
   mix-blend-mode: multiply;
 }
 .crime-container img {
-  border-radius: 13px;
   max-width: 300px;
 }
 .hover-container {
@@ -260,6 +261,160 @@ body::-webkit-scrollbar {
 .crime-container:hover .hover-container {
   display: block;
 }
+/*  */
+.moreImg-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+.wtf-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 13px;
+  cursor: pointer;
+}
+.wtf-img {
+  border-radius: 13px;
+}
+.more-item {
+  display: flex;
+  overflow-x: auto;
+}
+.more-item::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+/* Start of top-news Section */
+.top {
+  position: relative;
+  width: 309px;
+  height: 120px;
+  padding: 0.5rem;
+  border-radius: 13px;
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgb(0 0 0/6%);
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.top-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem;
+  border-radius: 13px;
+  background-color: #006197;
+  display: none;
+}
+.fox-para,
+.time-para {
+  color: rgb(155, 155, 155);
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+.china-para,
+.even-para {
+  margin-top: -10px;
+  max-width: 212px;
+  color: rgb(40, 40, 40);
+  font-size: 14px;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin-bottom: 0;
+}
+.bear-img {
+  border-radius: 13px;
+}
+.even-para {
+  color: #fff !important;
+  margin-top: 0;
+}
+.hover-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.time-para {
+  color: white;
+  margin-right: 60px;
+}
+.top-img {
+  display: flex;
+}
+.alarm-clock {
+  opacity: 0.4;
+}
+.top:hover .top-hover {
+  display: block;
+}
+.foryou {
+  display: flex;
+  /* justify-content: space-around; */
+}
+/* Start of Up to date Section */
+.cricket {
+  position: relative;
+  width: 309px;
+  height: 300px;
+  padding: 1rem;
+  background: url(./img/cricket.webp) no-repeat center;
+  background-size: cover;
+  border-radius: 13px;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.4);
+  /* opacity: 0.04; */
+}
+
+.new-para {
+  color: #fff;
+  font-size: 13px;
+  font-family: sans-serif;
+  cursor: default;
+}
+.india-para {
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.guardian-para {
+  margin-top: -10px;
+  font-size: 15px;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.crk-logo {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+}
+.svg-container {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+}
+.cricket:hover {
+  background-image: none;
+  background-color: #006197;
+}
+.cricket:hover .hide {
+  display: none;
+}
+.cricket:hover .svg-container {
+  display: block;
+}
+/* End Of Up to Date Section */
+/* End of top-news Section */
 @media only screen and (max-width: 1360px) {
   #navbar-container li a,
   .dark {
