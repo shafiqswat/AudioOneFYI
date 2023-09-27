@@ -1,5 +1,4 @@
 /** @format */
-var change = document.querySelector(".discover");
 var col = document.querySelectorAll("#changer");
 window.addEventListener("scroll", function () {
   if (window.scrollY > 100) {
@@ -12,12 +11,5 @@ window.addEventListener("scroll", function () {
     for (var i = 0; i < col.length; i++) {
       col[i].style.backgroundColor = "transparent";
     }
-  }
-});
-window.addEventListener("scroll", function () {
-  if (window.scrollY > 100) {
-    change.style.color = "black";
-  } else {
-    change.style.color = "white";
   }
 });

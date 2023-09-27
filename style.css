@@ -206,6 +206,9 @@ body::-webkit-scrollbar {
 .crime-container img {
   max-width: 300px;
 }
+#junkie {
+  border-radius: 13px;
+}
 .hover-container {
   background-color: #003e60;
   position: absolute;
