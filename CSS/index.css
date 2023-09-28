@@ -23,7 +23,7 @@ body::-webkit-scrollbar {
   left: 0;
   width: 100%;
   height: 100vh;
-  background-image: url(./img/230919-russel-brand-mb-0831-921118.jpg);
+  background-image: url(../img/230919-russel-brand-mb-0831-921118.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.5);
@@ -49,7 +49,7 @@ body::-webkit-scrollbar {
   margin-right: 85px !important;
 }
 .search {
-  background-image: url(./img/search.png);
+  background-image: url(../img/search.png);
   background-repeat: no-repeat;
   background-position: top 50px;
   height: 45px;
@@ -367,7 +367,7 @@ body::-webkit-scrollbar {
   width: 309px;
   height: 300px;
   padding: 1rem;
-  background: url(./img/cricket.webp) no-repeat center;
+  background: url(../img/cricket.webp) no-repeat center;
   background-size: cover;
   border-radius: 13px;
   background-blend-mode: multiply;
