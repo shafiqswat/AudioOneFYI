@@ -1,0 +1,80 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.about {
+  width: 100%;
+  max-height: auto;
+  background-image: linear-gradient(to top, #c3c3c3, #fff, #f1f1f1);
+  background-attachment: fixed;
+  /* padding-bottom: 100px; */
+}
+.fy-heading {
+  font-size: 20em;
+  color: #b7b7b7;
+  font-weight: 700;
+  margin-top: -45px;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+  position: fixed;
+  right: 0;
+  top: 20px;
+  right: 3px;
+}
+.menu li {
+  list-style-type: none;
+  text-align: justify;
+  text-align-last: right;
+}
+.menu li a {
+  text-decoration: none;
+  color: #b8b8b8;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.menu li :hover {
+  color: #618dc5;
+}
+.one {
+  font-size: 8.2em;
+  font-family: "Roboto", sans-serif;
+}
+
+.audi-para {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #b7b7b7;
+  line-height: 36px;
+}
+.chat-container {
+  position: fixed;
+  width: 96px;
+  height: 44px;
+  border-radius: 60px;
+  background-color: rgb(10, 124, 255);
+  right: 15px;
+  bottom: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chat-container a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+}
+.chat-container a:hover {
+  color: #fff;
+}

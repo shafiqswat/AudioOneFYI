@@ -1,0 +1,134 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.about {
+  width: 100%;
+  max-height: auto;
+  background-image: linear-gradient(to top, #c3c3c3, #fff, #f1f1f1);
+  background-attachment: fixed;
+  /* padding-bottom: 100px; */
+}
+.fy-heading {
+  font-size: 11em;
+  color: #b7b7b7;
+  font-weight: 700;
+  margin-top: 20px;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+  position: fixed;
+  right: 0;
+  top: 20px;
+  right: 3px;
+  z-index: 99;
+}
+.menu li {
+  list-style-type: none;
+  text-align: justify;
+  text-align-last: right;
+  /* opacity: 0.5; */
+}
+.menu li a {
+  text-decoration: none;
+  color: #b8b8b8;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.menu li :hover {
+  color: #618dc5;
+}
+.one {
+  font-size: 8.2em;
+  font-family: "Roboto", sans-serif;
+}
+.form-container {
+  background-color: #d3d3d3;
+  width: 232px;
+  height: auto;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 60px;
+  margin-top: -107px;
+}
+.want-heading {
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  position: relative;
+  z-index: 100;
+}
+.tell-para {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.first {
+  border: none;
+  width: 50%;
+  background: transparent;
+  border-bottom: 1px solid #e2e2e2;
+}
+.first:focus {
+  outline: none;
+  border-bottom: 1px solid;
+}
+#email {
+  width: 100%;
+  height: 50px;
+}
+.form-select {
+  margin-top: 10px;
+  height: 60px;
+  background-color: #f8f8f8 !important;
+  color: #999999;
+  opacity: 0.8;
+}
+.form-control {
+  opacity: 0.2;
+}
+label {
+  color: #999999 !important;
+}
+#sub-btn {
+  background-color: #151515;
+  color: #fff;
+}
+.audi-para {
+  font-size: 28px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #b7b7b7;
+  line-height: 36px;
+}
+.chat-container {
+  position: fixed;
+  width: 96px;
+  height: 44px;
+  border-radius: 60px;
+  background-color: rgb(10, 124, 255);
+  right: 15px;
+  bottom: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chat-container a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+}
+.chat-container a:hover {
+  color: #fff;
+}
