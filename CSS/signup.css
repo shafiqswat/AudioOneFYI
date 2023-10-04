@@ -50,3 +50,9 @@ input:focus {
 #sig-btn:focus {
   box-shadow: none;
 }
+input::placeholder {
+  color: rgb(185, 179, 179) !important;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
